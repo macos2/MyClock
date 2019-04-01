@@ -1,0 +1,10 @@
+project('MyClock','c')
+gnome=import('gnome')
+gsrc=gnome.compile_resources('gresource','gresource/gresource.xml',source_dir: 'gresource')
+gtk_dep=dependency('gtk+-3.0')
+svg_dep=dependency('librsvg-2.0')
+executable('myclock',['main.c','MyClock.c'],gsrc,dependencies:[gtk_dep,svg_dep],c_args:['-w','-O3'])
+inc=include_directories('.')
+myclock_lib=static_library('myclock','MyClock.c',gsrc,dependencies:[gtk_dep,svg_dep],install:true,c_args:['-w','-O3','-fpic','-static'])
+myclock_dep=declare_dependency(include_directories:inc,link_with:myclock_lib,sources:gsrc,dependencies:[gtk_dep,svg_dep])
+
