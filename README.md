@@ -26,7 +26,7 @@ int main(int argc,char *argv[]){
 }
 
 
-[]!(https://github.com/macos2/MyClock/blob/master/screen_shoot.png)
+![](https://github.com/macos2/MyClock/blob/master/screen_shoot.png)
 
 Depend
 ------
