@@ -1,6 +1,7 @@
 # MyClock
 A Clock Gtkwidget can use for other Gtk programe ,here is a demo using the widget and a screenshoot
 
+```
 #include <gtk/gtk.h>
 
 //include the head file
@@ -24,7 +25,7 @@ int main(int argc,char *argv[]){
 	gtk_main();
 	return 0;
 }
-
+```
 
 ![](https://github.com/macos2/MyClock/blob/master/screen_shoot.png)
 
