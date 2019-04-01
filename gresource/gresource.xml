@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+ <gresource prefix="/org/gtk">
+  <file compressed="true">clock.svg</file>
+  <file compressed="true">digtal.svg</file>
+  <file compressed="true">face.svg</file>
+  <file compressed="true">hour.svg</file>
+  <file compressed="true">hour_mark.svg</file>
+  <file compressed="true">minute.svg</file>
+  <file compressed="true">minute_mark.svg</file>
+  <file compressed="true">second.svg</file>
+ </gresource>
+</gresources>
