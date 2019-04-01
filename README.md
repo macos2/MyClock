@@ -25,4 +25,9 @@ int main(int argc,char *argv[]){
 	return 0;
 }
 
-[]!()
+
+[]!(https://github.com/macos2/MyClock/blob/master/screen_shoot.png)
+
+Depend
+------
+`Gtk+-3.0` `librsvg-2.0` and the relate dependencies.
