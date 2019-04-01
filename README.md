@@ -1,5 +1,6 @@
 # MyClock
-A Clock Gtkwidget can use for other Gtk programe ,here is a demo using the widget and a screenshoot
+A Clock Gtkwidget can use for other Gtk programe ,here is a demo using the widget and a screenshoot.
+Demo can be download in the release page [Download](https://github.com/macos2/MyClock/releases).
 
 ```
 #include <gtk/gtk.h>
